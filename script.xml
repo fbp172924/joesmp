@@ -1,0 +1,262 @@
+<project>
+    <shortName>joesmpinstaller</shortName>
+    <fullName>JoeSMP installer</fullName>
+    <version>1.0</version>
+    <installerFilename>JoeSMPClient${product_version}-${platform_name}-installer.${platform_exec_suffix}</installerFilename>
+    <leftImage>C:\Users\ben\Downloads\funny-cat(1).png</leftImage>
+    <logoImage>C:\Users\ben\Downloads\funny-cat(1).png</logoImage>
+    <splashImage>C:\Users\ben\Downloads\funny-cat(1).png</splashImage>
+    <componentList>
+        <component>
+            <name>default</name>
+            <description>Default Component</description>
+            <canBeEdited>1</canBeEdited>
+            <selected>1</selected>
+            <show>1</show>
+            <folderList>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfiles</name>
+                    <platforms>all</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileslinux</name>
+                    <platforms>linux</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileslinux64</name>
+                    <platforms>linux-x64</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>C:\Users\${username}\AppData\Roaming\.minecraft\JoeSMP\fabricinstaller</destination>
+                    <name>programfileswindows</name>
+                    <platforms>windows</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfileswindows64</name>
+                    <platforms>windows-x64</platforms>
+                </folder>
+                <folder>
+                    <description>Program Files</description>
+                    <destination>${installdir}</destination>
+                    <name>programfilesosx</name>
+                    <platforms>osx</platforms>
+                </folder>
+                <folder>
+                    <description>.minecraft</description>
+                    <destination>C:\Users\${system_username}\AppData\Roaming\.minecraft\JoeSMP\mods</destination>
+                    <name>appdata</name>
+                    <platforms>all</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/dynamic-fps-3.7.3+minecraft-1.21.0-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/e4mc_minecraft-fabric-5.2.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/enhancedblockentities-0.10.1+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/entity_model_features_fabric_1.21-2.2.6.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/entity_texture_features_fabric_1.21-6.2.5.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/entityculling-fabric-1.7.0-mc1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/fabric-api-0.105.0+1.21.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/fabric-language-kotlin-1.12.2+kotlin.2.0.20.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/fabricskyboxes-0.7.4+mc1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/fabrishot-1.14.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/fastquit-3.0.0+1.20.6.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/ferritecore-7.0.0-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/fsb-interop-1.4.0+mc1.21-build.54.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/ImmediatelyFast-Fabric-1.2.21+1.21.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/indium-1.0.35+mc1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/iris-1.7.3+mc1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/language-reload-1.6.1+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/lithium-fabric-mc1.21.1-0.13.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/main-menu-credits-1.2.0.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/mixintrace-1.1.1+1.17.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/modelfix-1.21-1.6-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/modernfix-fabric-5.19.3+mc1.21.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/modmenu-11.0.2.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/morechathistory-1.3.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/moreculling-1.21-0.26.0.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/NoChatReports-FABRIC-1.21-v2.8.0.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/optigui-2.3.0-beta.5+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/paginatedadvancements-2.5.1.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/polytone-1.21-2.3.8-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/puzzle-fabric-2.0.1+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/reeses_sodium_options-1.7.3+mc1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/rrls-5.0.8+mc1.21.1-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/sodium-extra-0.5.7+mc1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/sodium-fabric-0.5.11+mc1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/YetAnotherConfigLib-3.5.0+1.21-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/yosbr-0.1.2.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/Zoomify-2.14.0+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/animatica-0.6.1+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/bettermounthud-1.2.4.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/capes-1.5.4+1.21-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/citresewn-1.2.1+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/cloth-config-15.0.140-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/continuity-3.0.0-beta.5+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/Controlify-2.0.0-beta.14+1.21-fabric.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/cubes-without-borders-2.1.1+1.21.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/AppData/Roaming/ModrinthApp/profiles/Fabulously Optimized (5)/mods/Debugify-1.21.1+1.0.jar</origin>
+                        </distributionFile>
+                        <distributionFile>
+                            <origin>C:/Users/ben/Downloads/voicechat-fabric-1.21.1-2.5.22.jar</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                </folder>
+                <folder>
+                    <description>Fabric Installer</description>
+                    <destination>${env(TMP)}\JoeSMP\fabricinstaller</destination>
+                    <name>newfolder</name>
+                    <platforms>all</platforms>
+                    <distributionFileList>
+                        <distributionFile>
+                            <origin>C:/Users/ben/Downloads/fabric.exe</origin>
+                        </distributionFile>
+                    </distributionFileList>
+                </folder>
+            </folderList>
+        </component>
+    </componentList>
+    <preBuildActionList>
+        <deleteFile>
+            <path>C:\Users\ben\OneDrive\Documents\InstallBuilder\output\joesmpinstaller-1.0-windows-x64-installer.exe</path>
+        </deleteFile>
+    </preBuildActionList>
+    <preInstallationActionList>
+        <showWarning>
+            <text>Read the whole guide first</text>
+        </showWarning>
+        <launchBrowser>
+            <url>https://discord.com/channels/1177231660144660500/1288958761549172888</url>
+        </launchBrowser>
+        <showInfo>
+            <text>(Debug) Username is ${system_username} (this is a bug, please report)</text>
+            <ruleList>
+                <userTest>
+                    <logic>exists</logic>
+                    <username>ben</username>
+                </userTest>
+            </ruleList>
+        </showInfo>
+    </preInstallationActionList>
+    <postInstallationActionList>
+        <showInfo>
+            <text>Uncheck "Create profile" and then click Install</text>
+        </showInfo>
+        <runProgram>
+            <program>${env(TMP)}\JoeSMP\fabricinstaller\fabric.exe</program>
+            <programArguments></programArguments>
+        </runProgram>
+    </postInstallationActionList>
+    <cdromDirectory>JoeSMPClient${product_version}-${platform_name}-installer.${platform_exec_suffix}</cdromDirectory>
+    <compressionAlgorithm>lzham-ultra</compressionAlgorithm>
+    <enableRollback>0</enableRollback>
+    <enableTimestamp>1</enableTimestamp>
+    <installationType>upgrade</installationType>
+    <requestedExecutionLevel>asInvoker</requestedExecutionLevel>
+    <uninstallerDirectory></uninstallerDirectory>
+    <vendor>JoeSMP</vendor>
+    <windows64bitMode>1</windows64bitMode>
+    <platformOptionsList>
+        <platformOptions>
+            <platform>windows</platform>
+        </platformOptions>
+    </platformOptionsList>
+</project>
+
